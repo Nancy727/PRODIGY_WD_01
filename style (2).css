@@ -1,0 +1,132 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #3e2723; /* Dark brown */
+    color: #fff; /* Changed text color to white for better contrast */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: #4e342e; /* Darker brown */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White text for navbar brand */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: #fff; /* White text for links */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #d7ccc8; /* Light brown for hover */
+    transform: scale(1.1);
+}
+
+.logo {
+    height: 50px;
+    border: 2px solid #d7ccc8; /* Light brown border */
+    border-radius: 20%; /* Make the logo oval */
+    object-fit: cover; /* Ensure the image fits within the oval */
+}
+
+.home-section {
+    background-image: url('/Asserts/coffeeBeans.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* White text */
+}
+
+.text-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fffefe;
+    margin-top: 100px;
+    animation: fadeIn 2s;
+}
+
+.text-box h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.text-box p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.text-box span {
+    color: #d7ccc8; /* Light brown */
+}
+
+.btn-outline-light {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #3e2723; /* Dark brown */
+}
+
+.coffee-card {
+    background: rgba(61, 45, 41, 0.9); /* Semi-transparent dark brown */
+    color: #fff; /* White text */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.coffee-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #5d4037; /* Darker brown */
+    color: #fff; /* White text */
+    padding: 20px 0;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer p, footer a {
+    font-size: 1rem;
+    color: #d7ccc8; /* Light brown */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.social a {
+    transition: transform 0.3s;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
