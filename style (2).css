@@ -37,7 +37,7 @@ body {
 }
 
 .home-section {
-    background-image: url('./Asserts/coffeeBeans.jpg'); 
+    background-image: url('Asserts/images/coffeeBeans.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
